@@ -1,0 +1,17 @@
+name: gpu-inference-performer
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pip:
+      - fastapi
+      - locust
+      - pillow
+      - python-multipart
+      - ultralytics
+      - uvicorn[standard]

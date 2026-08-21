@@ -1,0 +1,7 @@
+fastapi
+locust
+pillow
+python-multipart
+torch
+ultralytics
+uvicorn[standard]
